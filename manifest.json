@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Mood-Based Food Recommender",
+    "version": "1.0",
+    "description": "Suggests food from free APIs based on your mood.",
+    "permissions": ["activeTab", "storage"],
+    "host_permissions": ["*://*.themealdb.com/*","*://*.audioscrobbler.com/*"],
+    "action": {
+      "default_popup": "popup.html"
+    }
+}
